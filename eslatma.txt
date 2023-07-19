@@ -1,0 +1,58 @@
+### 1. Environment yaratish: python -m venv env
+
+### 2. Agar isz windowsdan foydalansangiz
+### 3. env ni activate qilishdan oldin terminalda powershell oynasiga shu kodni kiritasz: Set-ExcutionPolicy Unrestricted -Force
+### 4. env\Scripts\activate
+
+### 1. Agar siz Mac yoki ubuntudan foydalansangiz
+### 2. env\bin\activate
+
+
+
+### requirements.txt => bu bizni ishlatgan kutubxona yoki framework versiyalarini saqlovchi file.
+
+### pip freeze > requirements.txt => saqlash
+
+### pip freeze -r requirements.txt => o'rnatish
+
+
+
+
+### Django project yaratishni boshlaymiz
+### django-admin startproject config  => bu komanda project sozlamalarini yaratadi (bunda ikkita config chiqadi)
+### django-admin startproject config .  => bu komanda project sozlamalarini yaratadi (bunda bitta config chiqadi)
+### python manage.py migrate  => bu komanda ma'lumot saqlash uchun "database, sqlite3" ni faollashtiradi
+### python .\manage.py runserver  => bu komanda django loyihamizni ishga tushiradi
+### python manage.py createsuperuser  => bu komanda django loyihamizda superuser ya'ni foydalanuvchi yaratadi
+
+
+
+### python manage.py startapp app_name
+### django-admin startapp app_name
+
+
+
+### MODELS
+# Models bu bizni projectimizni skeleti
+
+### MVT bu template bilan ishlash. Template bu html filelari.
+# MVT => Models,  Views, Templates
+
+
+### python manage.py makemigrations => migrations yaratib beradi. => database tiliga ogirib beradi.
+### python manage.py migrate =>  bu databasega saqlab qoyadi. Biror model nomi yoki table qoshilganda migrate qilinadi.
+
+
+### null=True => databasega null bolish uchun ruxsat beradi. 
+### blank=True => field yoki label uchun hech narsa kiritmaslikka ruxsat beradi
+
+
+
+### Github
+
+
+#1. git init
+#2. git add .
+#3. git commit -m "first commit"
+#4. git remote add origin https://github.com/parsival-user/Parsival-s-Project.git
+#5. git push origin main 
